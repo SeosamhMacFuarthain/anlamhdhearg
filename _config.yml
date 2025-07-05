@@ -1,0 +1,9 @@
+title: An Lámh Dhearg
+description: A site for makers, preservers, and dreamers.
+baseurl: ""
+url: "https://seosamhmacfuarthain.github.io"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+language: en
