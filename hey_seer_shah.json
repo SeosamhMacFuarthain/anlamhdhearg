@@ -1,9 +1,10 @@
 {
-  "type": "micro",
-  "wake_word": "hey Saoirse",
+  "version": 2,
+  "wake_word": "hey saoirse",
   "author": "Joseph Foran",
   "model": "hey_seer_shah.tflite",
-  "version": 2,
+  "framework": "tflite",
+  "microphones": ["i2s"],
   "micro": {
     "probability_cutoff": 0.97,
     "sliding_window_size": 5,
@@ -11,4 +12,4 @@
     "tensor_arena_size": 30000,
     "minimum_esphome_version": "2024.7.0"
   }
-}   
+}
