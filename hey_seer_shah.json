@@ -1,10 +1,10 @@
 {
-  "version": 2,
-  "wake_word": "hey saoirse",
+  "name": "hey_saoirse",
+  "type": "micro",
+  "wake_word": "hey Saoirse",
   "author": "Joseph Foran",
   "model": "hey_seer_shah.tflite",
-  "framework": "tflite",
-  "microphones": ["i2s"],
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.97,
     "sliding_window_size": 5,
