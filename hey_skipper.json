@@ -1,15 +1,19 @@
 {
   "type": "micro",
-  "wake_word": "Hhy_skipper",
+  "wake_word": "hey_skipper",
   "author": "Seosamh",
   "website": "https://anlamhdhearg.com",
-  "model": "hey_skipper.tflite",
+
   "version": 2,
+
+  "model": "hey_skipper.tflite",
+
+  "trained_languages": ["en"],
+
   "micro": {
     "probability_cutoff": 0.97,
     "sliding_window_size": 5,
     "feature_step_size": 10,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7.0"
+    "tensor_arena_size": 30000
   }
 }
