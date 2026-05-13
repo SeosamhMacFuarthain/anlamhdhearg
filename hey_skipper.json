@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "Hey skipper",
+  "wake_word": "Hhy_skipper",
   "author": "Seosamh",
   "website": "https://anlamhdhearg.com",
   "model": "hey_skipper.tflite",
